@@ -1,4 +1,0 @@
-<?xml version="1.0"?>
-<object name="portal_javascripts">
-    <javascript id="++resource++collective.js.underscore/underscore.min.js" compression="none"/>
-</object>

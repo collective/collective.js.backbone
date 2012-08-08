@@ -3,9 +3,9 @@ import os
 
 version = '1.3.3'
 
-setup(name='collective.js.underscore',
+setup(name='collective.js.backbone',
       version=version,
-      description="underscore.js for plone",
+      description="backbone.js for plone",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -17,10 +17,10 @@ setup(name='collective.js.underscore',
         "License :: OSI Approved :: MIT License",
 
         ],
-      keywords='javascript plone underscore',
-      author='Denis Krienbuehl',
-      author_email='denis.krienbuehl@gmail.com',
-      url='https://github.com/collective/collective.js.underscore',
+      keywords='javascript plone backbone',
+      author='Patrick Gerken',
+      author_email='do3ccqrv@googlemail.com',
+      url='https://github.com/collective/collective.js.backbone',
       license='MIT',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.js'],
@@ -28,6 +28,7 @@ setup(name='collective.js.underscore',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.js.underscore',
       ],
       entry_points="""
       # -*- Entry points: -*-
