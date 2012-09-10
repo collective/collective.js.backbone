@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1.3.3</version>
+  <version>0001</version>
+    <dependencies>
+      <dependency>profile-collective.js.underscore:default</dependency>
+    </dependencies>
 </metadata>
