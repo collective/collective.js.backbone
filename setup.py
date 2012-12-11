@@ -15,7 +15,6 @@ setup(name='collective.js.backbone',
         "Programming Language :: Python",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-
         ],
       keywords='javascript plone backbone',
       author='Patrick Gerken',
