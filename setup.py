@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3.3'
+version = '0.9.2'
 
 setup(name='collective.js.backbone',
       version=version,
