@@ -1,4 +1,3 @@
-recursive-include collective *
-recursive-include docs *
-include *
+include docs/*
+recursive-include collective *.xml *.js *.zcml
 global-exclude *.pyc
