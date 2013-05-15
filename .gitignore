@@ -1,3 +1,5 @@
 dist/
 *.egg-info
-*.pyc
+*.pyc# On branch master
+build/
+setup.cfg
