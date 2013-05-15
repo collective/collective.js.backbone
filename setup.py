@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.3.3'
+version = '1.0.0'
 
 setup(name='collective.js.backbone',
       version=version,
@@ -15,7 +15,6 @@ setup(name='collective.js.backbone',
         "Programming Language :: Python",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
-
         ],
       keywords='javascript plone backbone',
       author='Patrick Gerken',
