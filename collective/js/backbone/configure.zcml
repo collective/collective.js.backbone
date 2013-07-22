@@ -4,9 +4,12 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.js.backbone">
 
-    <browser:resourceDirectory
-        name="collective.js.backbone"
-        directory="resources"
+
+  <include package="collective.js.underscore" />
+  
+  <browser:resourceDirectory
+      name="collective.js.backbone"
+      directory="resources"
         />
 
   <genericsetup:registerProfile

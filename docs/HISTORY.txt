@@ -1,3 +1,9 @@
+1.0.0.1 (Unreleased)
+--------------------
+
+- Include collective.js.underscore dependency into zcml.
+
+
 1.0.0 (2013-05-13)
 ------------------
 
