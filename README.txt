@@ -2,7 +2,7 @@ Introduction
 ============
 
  * Bundles backbone.js for use with Plone.
- * The version number of this module is equal to the used backbone.js version.
+ * Major, Minor, and Patch version number are equal to the backbone version.
 
 backbone.js
 ===========
