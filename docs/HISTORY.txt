@@ -1,4 +1,4 @@
-1.0.0.2 (unreleased)
+1.0.0.2 (2013-08-18)
 --------------------
 
 - Last release was a brown bag release.
