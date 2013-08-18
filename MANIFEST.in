@@ -1,3 +1,4 @@
 include docs/*
+include README.txt
 recursive-include collective *
 global-exclude *.pyc
