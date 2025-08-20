@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records prefix="plone.bundles/backbone"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="enabled">True</value>
+    <value key="jscompilation">++resource++collective.js.backbone/backbone.min.js</value>
+    <value key="depends">underscore</value>
+    <value key="load_async">False</value>
+    <value key="load_defer">False</value>
+  </records>
+
+</registry>

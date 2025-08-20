@@ -1,7 +1,17 @@
-1.0.0.3 (unreleased)
---------------------
+Changelog
+=========
 
-- Nothing changed yet.
+1.6.1 (unreleased)
+------------------
+
+- Update backbone.min.js to 1.6.1
+  [laulaz]
+
+- Migrate package from flat-layout to src-layout
+  [laulaz]
+
+- Add Plone 6.1 compatibility, drop Plone 4 compatibility
+  [laulaz]
 
 
 1.0.0.2 (2013-08-18)
