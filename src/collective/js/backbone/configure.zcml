@@ -4,9 +4,8 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.js.backbone">
 
-
   <include package="collective.js.underscore" />
-  
+
   <browser:resourceDirectory
       name="collective.js.backbone"
       directory="resources"
@@ -16,7 +15,15 @@
       name="default"
       title="backbone.js"
       directory="profiles/default"
-      description="backbone.js library for Plone (http://documentcloud.github.com/backbone/)"
+      description="backbone.js library for Plone (https://github.com/jashkenas/backbone)"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="backbone.js uninstall"
+      directory="profiles/uninstall"
+      description="Uninstalls backbone.js library"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
